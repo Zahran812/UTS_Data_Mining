@@ -7,6 +7,7 @@
 📊 Analisis & Penanganan *Imbalanced Data* pada Prediksi Permintaan dan Pembelian Obat
 
 🧠 Deskripsi Proyek
+
 Proyek ini bertujuan untuk mempelajari cara **menangani ketidakseimbangan data (imbalanced data)** dalam konteks prediksi kategori obat berdasarkan data transaksi dan stok.  
 Dalam dunia farmasi, sering kali transaksi **didominasi oleh "Obat Bebas"** dibandingkan **"Obat Resep Dokter"**, sehingga model cenderung bias terhadap kelas mayoritas.
 
