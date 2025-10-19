@@ -41,8 +41,12 @@ Tujuan simulasi: menguji berbagai pendekatan *imbalanced data handling*.
 
 🔍 Tahap 3 — Analisis Distribusi Kategori
 Distribusi awal divisualisasikan menggunakan `seaborn`:
-```python
+
 sns.countplot(x=df_pembelian["kategori"])
+
+Menampilkan distribusi jumlah transaksi per kategori (Obat Bebas vs Obat Resep Dokter).
+
+
 
 🧩 Tahap 4 — Penanganan Imbalanced Data
 1️⃣ Resampling Techniques (Data-Level Methods)
