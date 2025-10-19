@@ -1,4 +1,5 @@
  📘 UTS Data Mining : Analisis Imbalanced Data
+ 
  Anggota Kelompok : - Muhammad Zahran Albara (122140240)
                     - Casey Z.D Manurung (122140054)
                     - Royfran Roger Valentino (122140239)
