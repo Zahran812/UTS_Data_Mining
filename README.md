@@ -9,6 +9,29 @@
 Proyek ini bertujuan untuk mempelajari cara **menangani ketidakseimbangan data (imbalanced data)** dalam konteks prediksi kategori obat berdasarkan data transaksi dan stok.  
 Dalam dunia farmasi, sering kali transaksi **didominasi oleh "Obat Bebas"** dibandingkan **"Obat Resep Dokter"**, sehingga model cenderung bias terhadap kelas mayoritas.
 
+💻 Cara Menjalankan Notebook
+
+1. Clone repo ini:
+   ```bash
+   git clone https://github.com/Zahran812/UTS_Data_Mining.git
+   cd UTS_Data_Mining
+2.  Aktifkan environment :
+    python -m venv venv
+    source venv/Scripts/activate  # di Windows
+    # atau
+    source venv/bin/activate      # di Linux/Mac
+3. Install dependensi:
+    pip install -r requirements.txt
+4. Jalankan file utama:
+    Buka file imbalanced_analysis.ipynb
+    Jalankan semua sel satu per satu dari atas ke bawah (Ctrl+Enter atau Shift+Enter).
+5. Lihat hasil:
+
+    Output metrik akan muncul di bawah sel evaluasi.
+
+    Visualisasi seperti confusion matrix dan ROC curve akan tampil langsung di notebook.
+
+
 Dataset yang digunakan:
 - **`df_pembelian`** → data transaksi pembelian obat (±140.000 baris, hasil pembersihan).
 - **`df_stok`** → data stok obat, termasuk kolom `KODE`, `NAMA PRODUK`, `LOKASI`, `QTY.STOK`, dan `UNIT`.
