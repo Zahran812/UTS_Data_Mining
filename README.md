@@ -18,9 +18,12 @@ Dalam dunia farmasi, sering kali transaksi **didominasi oleh "Obat Bebas"** diba
    git clone https://github.com/Zahran812/UTS_Data_Mining.git
    cd UTS_Data_Mining
 2.  Aktifkan environment :
+
     python -m venv venv
     source venv/Scripts/activate  # di Windows
-    # atau
+    
+    atau
+    
     source venv/bin/activate      # di Linux/Mac
 3. Install dependensi:
     pip install -r requirements.txt
