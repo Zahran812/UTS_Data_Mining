@@ -1,4 +1,5 @@
  📘 UTS Data Mining : Analisis Imbalanced Data
+ 
  Anggota Kelompok : - Muhammad Zahran Albara (122140240)
                     - Casey Z.D Manurung (122140054)
                     - Royfran Roger Valentino (122140239)
@@ -6,6 +7,7 @@
 📊 Analisis & Penanganan *Imbalanced Data* pada Prediksi Permintaan dan Pembelian Obat
 
 🧠 Deskripsi Proyek
+
 Proyek ini bertujuan untuk mempelajari cara **menangani ketidakseimbangan data (imbalanced data)** dalam konteks prediksi kategori obat berdasarkan data transaksi dan stok.  
 Dalam dunia farmasi, sering kali transaksi **didominasi oleh "Obat Bebas"** dibandingkan **"Obat Resep Dokter"**, sehingga model cenderung bias terhadap kelas mayoritas.
 
@@ -62,8 +64,12 @@ Tujuan simulasi: menguji berbagai pendekatan *imbalanced data handling*.
 
 🔍 Tahap 3 — Analisis Distribusi Kategori
 Distribusi awal divisualisasikan menggunakan `seaborn`:
-```python
+
 sns.countplot(x=df_pembelian["kategori"])
+
+Menampilkan distribusi jumlah transaksi per kategori (Obat Bebas vs Obat Resep Dokter).
+
+
 
 🧩 Tahap 4 — Penanganan Imbalanced Data
 1️⃣ Resampling Techniques (Data-Level Methods)
