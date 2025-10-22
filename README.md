@@ -3,9 +3,9 @@
  Anggota Kelompok : 
  - Muhammad Zahran Albara (122140240)
 
-   - Casey Z.D Manurung (122140054)
+ - Casey Z.D Manurung (122140054)
 
-   - Royfran Roger Valentino (122140239)
+ - Royfran Roger Valentino (122140239)
 
 📊 Analisis & Penanganan *Imbalanced Data* pada Prediksi Permintaan dan Pembelian Obat
 
